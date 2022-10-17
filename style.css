@@ -1,8 +1,5 @@
 
 /* this is where we make it look pretty */
-@font-face {
-    font-family: 'Silkscreen', cursive;
-}
 
 body {
     background-color: rgb(98, 39, 116);
@@ -85,7 +82,7 @@ h3 + ol {
 
 @media only screen and (max-width: 600px) {
     body {
-      background-color: lightcoral;
+      background-color: rgb(39, 16, 89);
     }
 }
 
