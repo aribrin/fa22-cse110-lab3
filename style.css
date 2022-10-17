@@ -1,0 +1,91 @@
+/* this is where we make it look pretty */
+@font-face {
+    font-family: 'Silkscreen', cursive;
+}
+
+body {
+    background-color: rgb(98, 39, 116);
+}
+
+
+
+img {
+    max-width: 600px;
+    max-height: 500pt;
+    margin-top: 40px;
+    margin-bottom: -50px;
+}
+
+* {
+    color: rgb(79, 165, 26);
+}
+
+#listbloc {
+    padding-bottom: 3%;
+}
+
+.header {
+    margin: auto;
+    padding: 1%;
+    padding-bottom: 2.3%;
+}
+
+option[value="1"] {
+    color: black;
+}
+
+p:hover {
+    font-family: 'Silkscreen';
+
+}
+
+button, textarea {
+    display: inline;
+}
+
+footer p {
+    color: black;
+    position: sticky;
+}
+
+section > h3 {
+    color: black;
+    margin: top;
+    
+}
+
+h3 ~ ul {
+    align-self: auto;
+    border-color: black;
+    border-style: dashed;
+    border-width: .065cm;
+    border-radius: 3vmin;
+}
+
+h3 + ol {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;    
+    border-color: black;
+    border-style: dashed;
+    border-width: .3vw;
+    border-radius: 3vh;
+}
+
+.bragboard {
+    text-align: center;
+    padding: 1%;
+    padding-left: 2%;;
+    border-style: groove;
+    border-color:aquamarine;
+    display: block;
+    position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightcoral;
+    }
+}
+
+
